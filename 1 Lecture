@@ -1,0 +1,35 @@
+Task 1
+
+number = float(input())
+
+if number > 0:
+    if number < 1:
+        print('small positive')
+    else:
+        if number > 1000000:
+            print('large positive')
+        else:
+            print('positive')
+elif number < 0:
+    if number > -1:
+        print('small negative')
+    else:
+        if number < -1000000:
+            print('large negative')
+        else:
+            print('negative')
+else:
+    print("zero")
+######################################################################################################
+Task 2
+
+num1 = int(input())
+num2 = int(input())
+num3 = int(input())
+
+if num1 > num2 and num1 > num3:
+    print(num1)
+elif num2 > num1 and num2 > num3:
+    print(num1)
+else:
+    print(num3)
