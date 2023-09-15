@@ -42,3 +42,22 @@ reversed_word=""
 for i in range(len(word)-1,-1,-1):
     reversed_word += word[i]
 print(reversed_word)
+##########################################################################################################
+Task 4
+number = int(input())
+
+for i in range (number):
+    number = int(input())
+    if not number % 2 == 0:
+        print(f'{number} is odd!')
+        break
+else:
+    print('All numbers are even.')
+##########################################################################################################
+Task 5
+number = float(input())
+
+while number < 1 or number > 100:
+    number = float(input())
+print(f'The number {number} is between 1 and 100')
+##########################################################################################################
