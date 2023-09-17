@@ -1,3 +1,5 @@
+####################################################Lecture Tasks###################################################
+
 Task 1
 
 number = float(input())
@@ -74,3 +76,49 @@ while command != "End":
     command = input()
 else:
     print("You bought everything needed.")
+
+############################################Excesrises Tasks###############################################
+Did alone Tasks - 1,2,3 Ask support for 4->9 + 10*->12*
+
+###########################################################################################################
+Task 1
+
+name = input()
+
+if name != "Johnny":
+    print(f"Hello, {name}!")
+else:
+    print("Hello, my love!")
+##########################################################################################################
+Task 2
+
+age = int(input())
+
+if age <= 14:
+    print("drink toddy")
+elif age > 14 and age <= 18:
+    print("drink coke")
+elif age > 18 and age <= 21:
+    print("drink beer")
+elif age > 21:
+    print("drink whisky")
+##########################################################################################################
+
+Task 3
+
+n = int(input())
+
+for i in range(n):
+    n = int(input())
+    if n == 88:
+        print("Hello")
+    elif n == 86:
+        print("How are you?")
+    elif n != 88 and n != 86 and n < 88:
+        print("GREAT!")
+    elif n > 88:
+        print("Bye.")
+##########################################################################################################
+
+Task 4
+
