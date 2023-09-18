@@ -177,5 +177,21 @@ for i in range(words_count):
     else:
         print(f'{word} is not pure!')
 
+##############################################################################################################
 
+Task 7
+
+while True:
+    line = input()
+    if line == 'End':
+        break
+        
+    if line == 'SoftUni':
+        continue
+        
+    converted_line = ''
+    for ch in line:
+        converted_line += 2 * ch
+        
+    print(converted_line)
 
