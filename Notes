@@ -22,3 +22,4 @@ for upper -> x = txt.upper()
 x = [i for i in range (10)]
 that is making variable with values in the loop
 #########################################################################################
+print(f"{km:.2f}") -> 798 -> 0.8
