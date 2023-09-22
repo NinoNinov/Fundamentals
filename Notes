@@ -32,3 +32,23 @@ print(type(asd))
 asd = "kfkjanfkjsf"
 for char in asd:
     print(char) -> printing 
+#########################################################################################
+my_list = []
+
+if my_list:
+    print(True)
+else:
+    print(False) -> if list is empty if will print True
+#########################################################################################
+my_text = "dasddaasdgshhht"
+print(set(my_text)) print only unique values {'h', 's', 'a', 'd', 'g', 't'}
+#########################################################################################
+my_set = {'a', 'b', 'c'}
+print(my_set)
+#########################################################################################
+example_dict = {"brand": "Ford", "model": "Mustang"}
+print(example_dict) 
+print(example_dict["brand"]) -> brand and model are keys
+#########################################################################################
+num = "312311325"
+print(num.count("3")) -> how many times 3 exist in the number
